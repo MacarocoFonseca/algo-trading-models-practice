@@ -3,17 +3,18 @@ name = "algo-trading-models-practice"
 version = "0.1.0"
 description = ""
 authors = ["Tomás Zúquete da Fonseca <t.zuquete.f@gmail.com>"]
-license = "M.I.T"
 readme = "README.md"
 packages = [{include = "algo_trading_models_practice"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-notebook = "^6.5.4"
+jupyter = "^1.0.0"
+matplotlib = "^3.7.1"
+ta-lib = "^0.4.26"
 ipykernel = "^6.23.2"
-yfinance = "^0.2.20"
-ta-lib = { version = "0.4.26", system = "brew", optional = true }
+yfinance = "^0.2.21"
+
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
