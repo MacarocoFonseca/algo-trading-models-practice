@@ -14,6 +14,7 @@ ta-lib = "^0.4.26"
 ipykernel = "^6.23.2"
 yfinance = "^0.2.21"
 pandas = "^2.0.2"
+scikit-learn = "^1.2.2"
 
 
 [build-system]

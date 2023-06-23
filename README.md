@@ -24,3 +24,6 @@ The formula for calculating the Sharpe ratio is as follows:
 - Sharpe Ratio = (Average Return of the Investment - Risk-Free Rate) / Standard Deviation of the Investment
 
 By calculating the Sharpe ratio, investors can evaluate how well an investment has performed relative to the amount of risk taken. A higher Sharpe ratio indicates a better risk-adjusted return, as it represents a higher return achieved per unit of risk
+
+#### Using Blueshift API
+![blueshift_mov_avg_cross_mom](img/blueshift_mov_avg_cross_mom.png)
